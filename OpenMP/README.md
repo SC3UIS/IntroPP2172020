@@ -4,7 +4,7 @@ En el presente repo se presenta el desarrollo del primer parcial sobre memoria c
 ## Desarrollo
 
 ### Explicación del código
-El codigo de busqueda binaria toma una lista de tamaño n de valores ingresados por el usuario, posteriormente mediante
+El código de busqueda binaria toma una lista de tamaño n de valores ingresados por el usuario, posteriormente mediante
 el algoritmo de ordenamiento de la burbuja ordena de menor a mayor valor la lista. Una vez ordenada la lista, se empieza la búsqueda
 dividiendo la lista en dos mitades, una "superior" y otra "inferior" y apartir de aca dependiendo si el valor es mayor o menor que el valor
 medio de la lista se empieza a iterar recursivamente la búsqueda hasta encontrar el número. El código original fue modificado levemente para que
@@ -41,6 +41,6 @@ para la compilación del código paralelizado se creó el archivo `BinarySearch.
 La salida de la compilacion y ejecucion se puede encontrar en el archivo `output_BinarySearch.txt`
 
 ### Resultados
-Se pudo evidenciar que al paralelizar el segmento de código crítico con mayor complejidad el tiempo de ejecución de este proceso
+Se pudo evidenciar que al paralelizar el segmento de código crítico con mayor complejidad, el tiempo de ejecución de este proceso
 disminuyó en algunas milésimas de segundo. Se intentó jugar con la cantidad de hilos empleados mediante el atributo `num_threads` para ver qué cambios presentaba. También
 se intentó ver las variaciones que presentaba incluyendo la paralelización en el llamado a la función y tambien dentro de la función justo antes del bucle for.
