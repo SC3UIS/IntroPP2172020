@@ -31,7 +31,7 @@ int main()
 
     double start_time = omp_get_wtime();
 
-#pragma omp num_threads(1) parallel shared(list)
+#pragma omp num_threads(4) parallel shared(list)
     {
         bubble_sort(list, SIZE);
     }
