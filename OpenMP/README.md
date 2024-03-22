@@ -3,7 +3,7 @@ En el presente repo se presenta el desarrollo del primer parcial sobre memoria c
 
 ## Desarrollo
 
-### Explicacion del codigo
+### Explicación del código
 El codigo de busqueda binaria toma una lista de tamaño n de valores ingresados por el usuario, posteriormente mediante
 el algoritmo de ordenamiento de la burbuja ordena de menor a mayor valor la lista. Una vez ordenada la lista, se empieza la búsqueda
 dividiendo la lista en dos mitades, una "superior" y otra "inferior" y apartir de aca dependiendo si el valor es mayor o menor que el valor
