@@ -14,9 +14,9 @@ generara números aleatorios y rellenara la lista sin solicitar datos al usuario
 El bloque de código que se decidió paralelizar fue el siguiente
 ```c
    #pragma omp num_threads(4) parallel shared(list)
-	{
-    	bubble_sort(list, SIZE);
-	}
+   {
+     bubble_sort(list, SIZE);
+   }
 ```
 En el ordenamiento de burbuja se identificó la mayor complejidad del código. Este ordenamiento cuenta con 3 for anidados. La razón
 por la cual se decidió paralelizar el llamado a la función y no directamente el bloque de código de la función es porque de esta forma la paralelización
@@ -43,4 +43,4 @@ La salida de la compilacion y ejecucion se puede encontrar en el archivo `output
 ### Resultados
 Se pudo evidenciar que al paralelizar el segmento de código crítico con mayor complejidad el tiempo de ejecución de este proceso
 disminuyó en algunas milésimas de segundo. Se intentó jugar con la cantidad de hilos empleados mediante el atributo `num_threads` para ver qué cambios presentaba. También
-se intentó ver las variaciones que presentaba incluyendo la paralelización en el llamado a la función dentro de la función justo antes del bucle for.
+se intentó ver las variaciones que presentaba incluyendo la paralelización en el llamado a la función y tambien dentro de la función justo antes del bucle for.
