@@ -1,2 +1,2 @@
 # IntroPP2172020
-This repository contains all repos of the course by the student kevin santiago gutierrez mendez
+This repository contains all activities of the course by the student kevin santiago gutierrez mendez
