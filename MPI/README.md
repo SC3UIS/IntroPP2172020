@@ -1,3 +1,12 @@
+# Segundo parcial MPI
+En el presente repo se presenta el desarrollo del segundo parcial en parejas sobre MPI (Message Passing Interface)
+
+##Integrantes
+-**Kevin Santiago Gutierrez Mendez - 2172020**
+-**Kevin Santiago Gutierrez Mendez - 2172020**
+
+## Desarrollo
+
 ## Descripción del Código MPI para Ordenamiento y Búsqueda Binaria
 
 Este código implementa el uso de MPI (Message Passing Interface) para paralelizar un algoritmo de ordenamiento y búsqueda binaria en un entorno distribuido. A continuación, se detallan los aspectos más relevantes de MPI utilizados en el código y una breve explicación del funcionamiento del programa:
