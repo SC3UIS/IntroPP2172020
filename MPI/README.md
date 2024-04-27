@@ -1,7 +1,7 @@
 # Segundo parcial MPI
 En el presente repo se presenta el desarrollo del segundo parcial en parejas sobre MPI (Message Passing Interface)
 
-##Integrantes:
+## Integrantes:
 
 - **Kevin Santiago Gutierrez Mendez - 2172020**
 - **Kevin Santiago Gutierrez Mendez - 2172020**
