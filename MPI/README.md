@@ -4,7 +4,7 @@ En el presente repo se presenta el desarrollo del segundo parcial en parejas sob
 ## Integrantes:
 
 - **Kevin Santiago Gutierrez Mendez - 2172020**
-- **Kevin Santiago Gutierrez Mendez - 2172020**
+- **Jhon Edinson Salazar lemus - 2222962**
 
 # Desarrollo
 ## Descripción del Código MPI para Ordenamiento y Búsqueda Binaria
